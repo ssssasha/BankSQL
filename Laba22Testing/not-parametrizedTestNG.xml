@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" parallel="methods" thread-count="2">
+    <test name="not-parametrized">
+        <groups>
+            <run>
+                <exclude name="parametrized"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="AppTest"></class>
+        </classes>
+    </test>
+</suite>
