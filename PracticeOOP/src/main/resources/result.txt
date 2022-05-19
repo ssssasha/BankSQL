@@ -1,3 +1,0 @@
-nature - 10
-services - 8
-oxygen - 2
